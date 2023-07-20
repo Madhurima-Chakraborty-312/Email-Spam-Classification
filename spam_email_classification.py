@@ -18,6 +18,9 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.ensemble import RandomForestClassifier
 
+nltk.download('punkt')
+nltk.download('stopwords')
+
 # Step 1: Introduction and overview
 print("Spam Email Classification Model")
 
