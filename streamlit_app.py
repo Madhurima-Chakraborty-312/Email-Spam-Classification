@@ -47,7 +47,7 @@ st.title('Email Spam Classifier')
 
 input_sms = st.text_input('Enter the Message ')
 
-option = st.selectbox("You Got Message From :-", ["Via Email ", "Via SMS", "other"])
+
 
 
 if st.checkbox("Check me"):
