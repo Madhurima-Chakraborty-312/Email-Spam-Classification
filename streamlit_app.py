@@ -44,7 +44,8 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 
 st.title('Email Spam Classifier')
-st.write()
+st.write("")
+st.write("")
 
 input_sms = st.text_input('Enter the Mail Body ')
 
@@ -63,6 +64,7 @@ if st.button('Submit'):
         st.header("Spam")
     else:
         st.header('Not Spam')
-st.write()
+st.write("")
+st.write("")
 st.write("By Madhurima Chakraborty")
 
