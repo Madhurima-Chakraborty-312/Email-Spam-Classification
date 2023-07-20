@@ -10,7 +10,7 @@ from PIL import Image
 nltk.download('punkt')
 nltk.download('stopwords')
 
-st.image(images(2), caption='EMAIL')
+st.image(images (2), caption='EMAIL')
 
 
 
