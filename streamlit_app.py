@@ -50,8 +50,7 @@ input_sms = st.text_input('Enter the Mail Body ')
 
 
 
-if st.checkbox("Check me"):
-    st.write("")
+
 
 if st.button('Click to Predict'):
     transform_sms = transform_text(input_sms)
