@@ -64,5 +64,5 @@ if st.button('Click to Predict'):
     else:
         st.header('Not Spam')
 
-print("By Madhurima Chakraborty")
+st.print("By Madhurima Chakraborty")
 
